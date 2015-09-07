@@ -18,3 +18,4 @@ coverage.*
 test/fixtures/monitor_log
 lcov.info
 .env
+
