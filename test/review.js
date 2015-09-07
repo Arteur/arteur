@@ -12,7 +12,7 @@ describe('/review', function () {
     it('returns the review page', function (done) {
 
         Server.init(0, function (err, server) {
-            console.log(err);
+
             expect(err).to.not.exist();
 
             server.inject('/review', function (res) {
