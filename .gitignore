@@ -17,4 +17,4 @@ coverage.*
 .emacs*
 test/fixtures/monitor_log
 lcov.info
-.en
+.env
