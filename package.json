@@ -24,8 +24,11 @@
     "env2": "^2.0.2",
     "handlebars": "^4.0.2",
     "hapi": "^9.3.0",
+    "hiredis": "^0.4.1",
     "hoek": "^2.14.0",
     "inert": "^3.0.1",
+    "redis": "^1.0.0",
+    "url": "^0.11.0",
     "vision": "^3.0.0"
   },
   "devDependencies": {
