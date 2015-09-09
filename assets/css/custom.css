@@ -44,11 +44,8 @@ body > .container {
     font-size: 14px;
 }
 .search-form {
-    height: 31px;
+    height: 34px;
     font-size: 10px;
 }
 
 /***********End  Home View*********/
-.stars {
-    background-color: red;
-}
