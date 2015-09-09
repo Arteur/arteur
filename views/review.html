@@ -5,9 +5,14 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
             <form id="" action="" method="" class="form-horizontal" enctype="multipart/form-data">
+                 <div class="form-group">
+                    <div class="col-xs-12">
+                        <input type="text" class="form-control" id="author" name="author" placeholder="Your name" value="">
+                    </div>
+                </div>
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input type="email" class="form-control" id="artistName" name="artistName" placeholder="Enter Artist Name" value="">
+                        <input type="text" class="form-control" id="artistName" name="artistName" placeholder="Enter Artist Name" value="">
                     </div>
                 </div>
                 <div class="form-group">
@@ -17,15 +22,11 @@
                 </div>
                 <div class="form-group">
                     <div class="col-xs-12 ">
-                        <select name="descriptiveTag" class="form-control dropdown">
-                            <option disabled selected value="">Pick descriptive tag</option>
-                            <option value="option1">some icon</option>
-                            <option value="option2">icon</option>
-                            <option value="option3">icon</option>
-                            <option value="option4">icon</option>
-                            <option value="option5">icon</option>
-                            <option value="option6">icon</option>
-                            <option value="option7">Other</optiin>
+                        <select name="tags" class="form-control dropdown">
+                            <option selected value="none">None</option>
+                            <option value="music"><span aria-hidden='true' class='glyphicon glyphicon-headphones'></span></option>
+                            <option value="painting"><span aria-hidden='true' class='glyphicon glyphicon-picture'></span></option>
+                            <option value="photo"><span aria-hidden='true' class='glyphicon glyphicon-camera'></span></option>
                         </select>
                     </div>
                 </div>
@@ -38,28 +39,28 @@
 
                 <div class="form-group">
                     <div class="col-xs-12 ">
-                        <input type="text" class="form-control" id="galleryName" name="galleryName" placeholder="Free or Pay" value="">
+                        <input type="checkbox" data-toggle="toggle" data-on="Free" data-off="Paid" name="free">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-xs-12 ">
-                        <input type="text" class="form-control" id="galleryName" name="galleryName" placeholder="End date" value="">
+                         <input name="permanent" type="checkbox" value="true" id="permanent">
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-xs-12 ">
-                        <input id="input-2b" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"
+                       <!--  <input id="input-2b" type="number" class="rating" min="0" max="5" step="0.5" data-size="xs"
                                data-symbol="&#xe005;" data-default-caption="{rating} hearts" data-star-captions="{}">
-                        <hr>
+                        <hr> -->
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input id="file-0a" class="file" type="file" multiple data-min-file-count="1">
-                        <br>
+                        <!-- <input id="file-0a" class="file" type="file" multiple data-min-file-count="1">
+                        <br> -->
 
                     </div>
                 </div>
