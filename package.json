@@ -4,7 +4,7 @@
   "description": "Art reviews platform",
   "main": "lib/start.js",
   "scripts": {
-    "test": "node node_modules/lab/bin/lab -a code -c -L -r lcov -o lcov.info -r console -o stdout",
+    "test": "node node_modules/lab/bin/lab -a code -r lcov -o lcov.info -r console -o stdout",
     "start": "node lib/start.js"
   },
   "repository": {
