@@ -1,0 +1,77 @@
+{{>navigation}}
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+            <form action="/extrareview/{{idReview}}" method="POST" class="form-horizontal" enctype="multipart/form-data">
+                 <div class="form-group">
+                    <div class="col-xs-12">
+                        <input type="text" class="form-control" id="author" name="author" placeholder="Your name" value="">
+                    </div>
+                </div>
+
+                <!-- STARS -->
+                <div class="form-group">
+                    <div class="col-xs-12 ">
+                        <select name="stars" class="form-control dropdown selectpicker">
+                            <option selected value="1" data-content="{{rating 1 'glyphicon glyphicon-star'}}"></option>
+                            <option value="2" data-content="{{rating 2 'glyphicon glyphicon-star'}}"></option>
+                            <option value="3" data-content="{{rating 3 'glyphicon glyphicon-star'}}"></option>
+                            <option value="4" data-content="{{rating 4 'glyphicon glyphicon-star'}}"></option>
+                            <option value="5" data-content="{{rating 5 'glyphicon glyphicon-star'}}"></option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- HEARTS -->
+                <div class="form-group">
+                    <div class="col-xs-12 ">
+                        <select name="hearts" class="form-control dropdown selectpicker">
+                            <option selected value="1" data-content="{{rating 1 'glyphicon glyphicon-heart'}}"></option>
+                            <option value="2" data-content="{{rating 2 'glyphicon glyphicon-heart'}}"></option>
+                            <option value="3" data-content="{{rating 3 'glyphicon glyphicon-heart'}}"></option>
+                            <option value="4" data-content="{{rating 4 'glyphicon glyphicon-heart'}}"></option>
+                            <option value="5" data-content="{{rating 5 'glyphicon glyphicon-heart'}}"></option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- ICON1 -->
+                <div class="form-group">
+                    <div class="col-xs-12 ">
+                        <select name="icon1" class="form-control dropdown selectpicker">
+                            <option selected value="1" data-content="{{rating 1 'glyphicon glyphicon-question-sign'}}"></option>
+                            <option value="2" data-content="{{rating 2 'glyphicon glyphicon-question-sign'}}"></option>
+                            <option value="3" data-content="{{rating 3 'glyphicon glyphicon-question-sign'}}"></option>
+                            <option value="4" data-content="{{rating 4 'glyphicon glyphicon-question-sign'}}"></option>
+                            <option value="5" data-content="{{rating 5 'glyphicon glyphicon-question-sign'}}"></option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- ICON2 -->
+                <div class="form-group">
+                    <div class="col-xs-12 ">
+                        <select name="icon2" class="form-control dropdown selectpicker">
+                            <option selected value="1" data-content="{{rating 1 'glyphicon glyphicon-info-sign'}}"></option>
+                            <option value="2" data-content="{{rating 2 'glyphicon glyphicon-info-sign'}}"></option>
+                            <option value="3" data-content="{{rating 3 'glyphicon glyphicon-info-sign'}}"></option>
+                            <option value="4" data-content="{{rating 4 'glyphicon glyphicon-info-sign'}}"></option>
+                            <option value="5" data-content="{{rating 5 'glyphicon glyphicon-info-sign'}}"></option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+
+                        <button class="btn btn-default btn-lg btn-block" role="submit" type="submit">Submit</button>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+
+</div>
+
+{{>footer}}

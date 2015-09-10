@@ -1,0 +1,47 @@
+{{> navigation}}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-4">
+           <div class="thumbnail">
+               <h3 class="text-center">{{galleryName}}</h3>
+               <h4 class="text-center">{{artistName}}</h4>
+               <h4 class="text-center">{{{tagsHelper tags}}}</h4>
+               <h4 class="text-center">{{artName}}</h4>
+               {{permanentHelper permanent endDate}}
+               {{freeHelper free}}
+               {{{images pictures}}}
+               <div class="caption">
+                   <div class="row">
+                       <div class="col-xs-6">
+                           <h6>
+                               {{{rating stars 'glyphicon glyphicon-star' }}}
+                           </h6>
+                           <h6>
+                              {{{rating hearts 'glyphicon glyphicon-heart' }}}
+                           </h6>
+                       </div>
+                       <div class="col-xs-6 right">
+                           <h6>
+                               {{{rating icon1 'glyphicon glyphicon-question-sign'}}}
+                           </h6>
+                           <h6>
+                               {{{rating icon2 'glyphicon glyphicon-info-sign'}}}
+                           </h6>
+                       </div>
+                   </div>
+
+                   <a href="/extrareview/{{id}}" class="btn btn-info text-center col-xs-12" role="button">Add review <span class="badge">{{this.extraReviews.length}}</span></a>
+                   <small class="text-center">Created by {{author}} on {{date}} </small>
+                   {{#each extraReviews}}
+                       {{>extraReview}}
+                   {{/each}}
+               </div>
+           </div>
+        </div>
+    </div>
+</div>
+
+
+
+{{>footer}}
