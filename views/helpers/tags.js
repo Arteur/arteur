@@ -10,6 +10,9 @@ module.exports = function (iconName) {
     if (iconName === 'painting') {
         result = "<span aria-hidden='true' class='glyphicon glyphicon-picture'></span>";
     }
+    if (iconName === 'none') {
+        result = '';
+    }
 
     return result;
 
