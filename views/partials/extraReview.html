@@ -1,20 +1,24 @@
 <h5 class="text-center">{{this.author}}</h5>
 
 <div class="col-xs-6">
-<h6>
-{{{rating this.stars 'glyphicon glyphicon-star' }}}
-</h6>
-<h6>
-{{{rating this.hearts 'glyphicon glyphicon-heart' }}}
-</h6>
+    <h6>
+    {{{rating this.stars 'glyphicon glyphicon-star' }}}
+    </h6>
+    <h6>
+    {{{rating this.hearts 'glyphicon glyphicon-heart' }}}
+    </h6>
 </div>
 <div class="col-xs-6 right">
-<h6>
-{{{rating this.icon1 'glyphicon glyphicon-question-sign'}}}
-</h6>
-<h6>
-{{{rating this.icon2 'glyphicon glyphicon-info-sign'}}}
-</h6>
+    <h6>
+    {{{rating this.icon1 'glyphicon glyphicon-question-sign'}}}
+    </h6>
+    <h6>
+    {{{rating this.icon2 'glyphicon glyphicon-info-sign'}}}
+    </h6>
 </div>
 
-{{{images this.pictures}}}
+<div class="row">
+    <div class="col-xs-12">
+        {{{images this.pictures}}}
+    </div>
+</div>
