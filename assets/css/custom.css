@@ -149,3 +149,47 @@ img {
 .glyphicon {
     letter-spacing: 1px;
 }
+
+/************** create review page ********/
+.createReview {
+    background-color: #FF865C;
+    border:  none;
+    color: #fff;
+    border-radius: 0;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+}
+.createReview:hover, .btn-primary:hover {
+    background-color: #FF865C;
+    color: #fff;
+}
+.btn-primary {
+    background-color: #FFD777;
+    color: #424A5D;
+    border: none;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    min-width: 8pc;
+}
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #E6E6E6;
+    border-color: #ADADAD;
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+}
+.btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #E6E6E6;
+    border-color: #ADADAD;
+    font-family: "Vollkorn",serif;
+    font-weight: 700;
+}
+#imagelightbox
+{
+    position: fixed;
+    z-index: 9999;
+
+    -ms-touch-action: none;
+    touch-action: none;
+}
