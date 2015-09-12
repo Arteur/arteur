@@ -25,5 +25,7 @@
         navigator.geolocation.getCurrentPosition(function(position) {
             $('#location').val(position.coords.latitude + ',' + position.coords.longitude);
         });
+
+        $('[data-toggle="tooltip"]').tooltip();
     });
 })();
