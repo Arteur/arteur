@@ -1,6 +1,9 @@
 html {
     position: relative;
-    min-height: 100%;
+    overflow-x: hidden;
+    width:100%;
+
+
 }
 body {
     /* Margin bottom by footer height */
@@ -8,6 +11,9 @@ body {
     margin-bottom: 50px;
     color: #424A5D;
     font-family: 'Vollkorn', serif;
+    overflow-x: hidden;
+    width:100%;
+
 }
 a, a:hover {
     color: #424A5D;
@@ -58,10 +64,10 @@ nav .btn-default:hover, footer .btn-default:hover {
     background-color: #FF865C;
     color: #fff;
 }
-.world, .create {
-    padding-left: 25px;
-    padding-right: 25px;
-}
+/*.world, .create {*/
+    /*padding-left: 25px;*/
+    /*padding-right: 25px;*/
+/*}*/
 .navbar-icons {
     padding:10px;
 }
@@ -115,7 +121,7 @@ h3 {
 .thumbnail h5 {
     color: #424A5D;
 }
-h5.tags {
+h5.tags, h4.tags {
     color: #FF865C;
 }
 .thumbnail {
@@ -151,7 +157,7 @@ img {
 }
 
 /************** create review page ********/
-.createReview {
+.createReview, .share {
     background-color: #FF865C;
     border:  none;
     color: #fff;
@@ -160,8 +166,12 @@ img {
     font-weight: 700;
 }
 .createReview:hover, .btn-primary:hover {
-    background-color: #FF865C;
-    color: #fff;
+    background-color:#424A5D;
+    color: #FFD777;
+}
+.share:hover, .share:active {
+    background-color: #424A5D;
+    color: #FFD777;
 }
 .btn-primary {
     background-color: #FFD777;
@@ -185,11 +195,31 @@ img {
     font-family: "Vollkorn",serif;
     font-weight: 700;
 }
-#imagelightbox
-{
-    position: fixed;
-    z-index: 9999;
+.carousel-indicators li {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+.carousel-indicators .active {
+    height: 15px;
+    width: 15px;
+}
 
-    -ms-touch-action: none;
-    touch-action: none;
+hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: rgba(66, 74, 93, 0.55);
+    border-style: solid none;
+    /*border-width: 1px 0;*/
+    margin: 18px 0;
+}
+.shareText {
+    margin-bottom: -15px;
+    font-family: 'Vollkorn', serif;
+}
+#moreReviews{
+    display: none;
 }
