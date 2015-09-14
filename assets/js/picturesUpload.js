@@ -12,21 +12,9 @@
 })();
 
 function get_signed_request(file){
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/sign_s3");
-    xhr.onreadystatechange = function(){
-        if(xhr.readyState === 4){
-            if(xhr.status === 200){
-                var response = JSON.parse(xhr.responseText);
-                console.log(response);
-                upload_file(file, response.signed_request, response.url);
-            }
-            else{
-                alert("Could not get signed URL from Amazon.");
-            }
-        }
-    };
-    xhr.send(JSON.stringify({file_type:file.type}));
+    $.post( "/sign_s3", {fileType: file.type}, function( response ) {
+        upload_file(file, response.signed_request, response.url);
+    });
 }
 
 function upload_file(file, signed_request, url){
@@ -37,15 +25,13 @@ function upload_file(file, signed_request, url){
     xhr.onload = function() {
         console.log('on load in funciton');
         if (xhr.status === 200) {
-            console.log('uplaod on amazon!');
             //force reaload of the image
             var date = new Date();
             document.getElementById("show-picture").src = url + '?d=' + date.getTime();
             document.getElementById("fileName").value = url;
         }
     };
-    xhr.onerror = function() {
-        
+    xhr.onerror = function(err) {
         alert("Could not upload file.");
     };
     xhr.send(file);
