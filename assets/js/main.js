@@ -39,5 +39,42 @@
         $('#showMore').click(function () {
             $('#moreReviews').slideToggle();
         });
+
+        $('#createReviewForm').validate({
+            rules: {
+                galleryName: {
+                    required: true
+                },
+                stars: {
+                    required: true
+                },
+                hearts: {
+                    required: true
+                },
+                icon1: {
+                    required: true
+                },
+                icon2: {
+                    required: true
+                }
+            },
+            messages: {
+                galleryName: {
+                    required: 'Please enter gallery name'
+                },
+                stars: {
+                    required: 'Please enter stars rating'
+                },
+                hearts: {
+                    required: 'Please enter heart rating'
+                },
+                icon1: {
+                    required: 'Please enter icon1 rating'
+                },
+                icon2: {
+                    required: 'Please enter icon2 rating'
+                }
+            }
+        });
     });
 })();
