@@ -37,7 +37,7 @@
         });
 
         $('#showMore').click(function () {
-            $('#moreReviews').slideToggle();
+            $('.moreReviews').slideToggle();
         });
 
         $('#createReviewForm').validate({

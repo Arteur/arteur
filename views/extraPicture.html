@@ -1,0 +1,34 @@
+{{>navigation}}
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+            <form id="extraPicture" action="/addExtraPicture/{{idReview}}" method="POST" class="form-horizontal" enctype="multipart/form-data">
+
+                <div class="form-group">
+                    <div class="col-xs-12 ">
+                        <input type="file" id="extra-picture" accept="image/*" required>
+                        <input type="hidden" id='fileNameExtra' name="fileNameExtra" value="">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12 ">
+                        <!-- <div id="show-picture"></div> -->
+                        <img class='img-responsive' src='' id="show-extra-picture"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+
+                        <button class="btn btn-default btn-lg btn-block createReview" role="submit" type="submit">Submit</button>
+                    </div>
+                </div>
+        </form>
+    </div>
+</div>
+
+</div>
+{{>footerReview}}
