@@ -45,6 +45,7 @@ function upload_file(file, signed_request, url){
         }
     };
     xhr.onerror = function() {
+        
         alert("Could not upload file.");
     };
     xhr.send(file);
