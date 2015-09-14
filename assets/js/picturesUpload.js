@@ -41,6 +41,7 @@ function upload_file(file, signed_request, url){
             //force reaload of the image
             var date = new Date();
             document.getElementById("show-picture").src = url + '?d=' + date.getTime();
+            document.getElementById("fileName").value = url;
         }
     };
     xhr.onerror = function() {

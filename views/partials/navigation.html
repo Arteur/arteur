@@ -1,21 +1,48 @@
 <nav class="navbar navbar-default navbar-fixed-top">
     <div class="row navbar-icons">
         <div class="col-xs-4">
-            <a href="top10.html" class="btn btn-default pull-left" role="button">My fav</a>
+            <a data-toggle="tooltip" data-placement="bottom" title="My favourite" href="#" class="btn btn-default pull-left" role="button"><span class="glyphicon glyphicon-heart"></span></a>
         </div>
         <div class="col-xs-4 text-center">
-            <a href="#" class="btn btn-default" role="button">Top10</a>
+            <a href="#" class="btn btn-default" role="button">World 10</a>
         </div>
         <div class="col-xs-4">
-            <a href="#" class="btn btn-default pull-right" role="button"><span class="glyphicon glyphicon-map-marker"></span></a>
+            <button type="button" class="btn btn-default pull-right" data-toggle="collapse" data-target="#filter-panel">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
         </div>
     </div>
-    <div class="col-xs-12 col-sm-6 col-sm-offset-3">
-        <div class="input-group">
-            <input type="text" class="form-control search-form" placeholder="Search for...">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button">Go!</button>
-            </span>
+    <div class="row">
+        <div class="col-xs-12 col-md-6 col-md-offset-3">
+            <div id="filter-panel" class="collapse filter-panel">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <form class="form-inline" role="form">
+                            <div class="form-group">
+                                <label class="filter-col" for="pref-perpage">Filter by:</label>
+                                <select id="pref-perpage" class="form-control">
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+
+                                </select>
+                            </div> <!-- form group [rows] -->
+                            <div class="form-group">
+                                <label class="filter-col" for="pref-search">Search:</label>
+                                <input type="text" class="form-control input-sm" id="pref-search">
+                            </div><!-- form group [search] -->
+
+                            <div class="form-group">
+
+                                <button type="submit" class="btn btn-default btn-block">Search
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+
 </nav>

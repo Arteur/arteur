@@ -1,4 +1,4 @@
-<body class="create">
+{{>navigation}}
 
 <div class="container">
 
@@ -23,7 +23,7 @@
                 <div class="form-group">
                     <div class="col-xs-12 ">
                         <select name="tags" class="form-control dropdown selectpicker">
-                            <option selected value="none">No Desciption tag</option>
+                            <option selected value="none">No Descriptive tag</option>
                             <option value="music" data-icon="glyphicon-headphones">Music</option>
                             <option value="painting" data-icon="glyphicon-picture">Painting</option>
                             <option value="photo" data-icon="glyphicon-camera">Photo</option>
@@ -58,7 +58,7 @@
                 <!-- STARS -->
                 <div class="form-group">
                     <div class="col-xs-12 ">
-                        <select name="stars" class="form-control dropdown selectpicker">
+                        <select name="stars" class="form-control dropdown selectpicker btn-success">
                             <option selected value="1" data-content="{{rating 1 'glyphicon glyphicon-star'}}"></option>
                             <option value="2" data-content="{{rating 2 'glyphicon glyphicon-star'}}"></option>
                             <option value="3" data-content="{{rating 3 'glyphicon glyphicon-star'}}"></option>
@@ -96,7 +96,7 @@
 
                 <!-- ICON2 -->
                 <div class="form-group">
-                    <div class="col-xs-12 ">
+                    <div class="col-xs-12">
                         <select name="icon2" class="form-control dropdown selectpicker">
                             <option selected value="1" data-content="{{rating 1 'glyphicon glyphicon-info-sign'}}"></option>
                             <option value="2" data-content="{{rating 2 'glyphicon glyphicon-info-sign'}}"></option>
@@ -129,7 +129,7 @@
                 <div class="form-group">
                     <div class="col-xs-12">
 
-                        <button class="btn btn-default btn-lg btn-block" role="submit" type="submit">Submit</button>
+                        <button class="btn btn-default btn-lg btn-block createReview" role="submit" type="submit">Submit</button>
                     </div>
                 </div>
         </form>

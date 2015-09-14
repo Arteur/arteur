@@ -1,24 +1,55 @@
-<h5 class="text-center">{{this.author}}</h5>
+<div id="moreReviews">
+    <h5 class="text-center">Created by: {{this.author}}</h5>
 
-<div class="col-xs-6">
-    <h6>
-    {{{rating this.stars 'glyphicon glyphicon-star' }}}
-    </h6>
-    <h6>
-    {{{rating this.hearts 'glyphicon glyphicon-heart' }}}
-    </h6>
-</div>
-<div class="col-xs-6 right">
-    <h6>
-    {{{rating this.icon1 'glyphicon glyphicon-question-sign'}}}
-    </h6>
-    <h6>
-    {{{rating this.icon2 'glyphicon glyphicon-info-sign'}}}
-    </h6>
-</div>
-
-<div class="row">
-    <div class="col-xs-12">
-        {{{images this.pictures}}}
+    <div class="col-xs-6">
+        <h6>
+        {{{rating this.stars 'glyphicon glyphicon-star' }}}
+        </h6>
+        <h6>
+        {{{rating this.hearts 'glyphicon glyphicon-heart' }}}
+        </h6>
     </div>
+    <div class="col-xs-6 right">
+        <h6>
+        {{{rating this.icon1 'glyphicon glyphicon-question-sign'}}}
+        </h6>
+        <h6>
+        {{{rating this.icon2 'glyphicon glyphicon-info-sign'}}}
+        </h6>
+    </div>
+
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                    <li data-slide-to="1" data-target="#myCarousel"></li>
+                    <li data-slide-to="2" data-target="#myCarousel"></li>
+                    <li data-slide-to="3" data-target="#myCarousel"></li>
+                </ol>
+                <!--wrapper for slides-->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="/assets/pictures/pic1.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="/assets/pictures/pic2.jpg">
+                    </div>
+                    <div class="item">
+                        <img src="/assets/pictures/pic3.jpg">
+                    </div>
+
+                </div><!--end of carousel-inner-->
+
+                <!--Controls-->
+                <a class="left carousel-control" data-slide="prev" href="#myCarousel2"><span class="icon-prev"></span></a>
+                <a class="right carousel-control" data-slide="next" href="#myCarousel2"><span class="icon-next"></span></a>
+
+            </div> <!--end of myCarousel-->
+            <!--{{{images this.pictures}}}-->
+        </div>
+    </div>
+    <hr>
 </div>

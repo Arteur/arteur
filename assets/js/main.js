@@ -26,20 +26,18 @@
             $('#location').val(position.coords.latitude + ',' + position.coords.longitude);
         });
 
-        function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+        $('[data-toggle="tooltip"]').tooltip();
 
-                reader.onload = function (e) {
-                    $('#show-picture').append("<img class='img-responsive' src='" + e.target.result + "'/>");
-                };
+        $(".carousel-inner").swiperight(function() {
+            $(this).parent().carousel('prev');
+        });
 
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
+        $(".carousel-inner").swipeleft(function() {
+            $(this).parent().carousel('next');
+        });
 
-        $("#take-picture").change(function(){
-            // readURL(this);
+        $('#showMore').click(function () {
+            $('#moreReviews').slideToggle();
         });
     });
 })();
