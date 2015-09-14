@@ -24,13 +24,15 @@
                         {{{rating this.icon2 'glyphicon glyphicon-info-sign'}}}
                     </h5>
                 </div>
+
+                <div class="col-xs-12">
+                    <a href="/addExtraPicture/{{this.id}}" class="btn btn-info text-center col-xs-12" role="button">Add picture</a>
+                     <p class="text-center">Created by {{this.author}} on {{this.date}} </p>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#" class="btn btn-info text-center col-xs-12 delete" role="button">Delete</a>
+                </div>
             </div>
-            
-            <a href="/addExtraPicture/{{this.id}}" class="btn btn-info text-center col-xs-12" role="button">Add picture</a>
-            <br/>
-            <p class="text-center">Created by {{this.author}} on {{this.date}} </p>
-            <a href="#" class="btn btn-info text-center col-xs-12" role="button">Delete</a>
-           <!--  <p><a href="#" class="btn btn-default" role="button">Share</a></p -->
         </div>
     </div>
 </div>
