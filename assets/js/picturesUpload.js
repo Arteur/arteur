@@ -1,4 +1,5 @@
 (function() {
+
     document.getElementById("take-picture").onchange = function(){
         var files = document.getElementById("take-picture").files;
         var file = files[0];
@@ -23,7 +24,7 @@ function upload_file(file, signed_request, url){
     xhr.open("PUT", signed_request);
     xhr.setRequestHeader('x-amz-acl', 'public-read');
     xhr.onload = function() {
-        console.log('on load in funciton');
+        console.log('on load in function');
         if (xhr.status === 200) {
             //force reaload of the image
             var date = new Date();

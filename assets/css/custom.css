@@ -26,25 +26,6 @@ body > .container {
     padding-top: 10px;
 }
 
-/*green: #3C948B;*/
-/*black #343434*/
-/*light-grey: #E1E3E4*/
-
-    /*colors:*/
-
-/*yellow: #FDDE59*/
-/*pastel-beige: #F6DCC5*/
-/*violet: #B48EBF*/
-/*green #B48EBF*/
-/*orange: #F6DCC5*/
-/*blue:#62A6C6*/
-
-
-/*beige :#FCEBB6*/
-/*green:#78C0A8*/
-/*orange dark : #F07818*/
-/*orange light: #F0A830*/
-/*brown: #5E412F*/
 /***********Navbar Home View*********/
 .navbar-default {
     background-color: #424A5D;
@@ -216,13 +197,27 @@ hr {
     /*border-width: 1px 0;*/
     margin: 18px 0;
 }
+
 .shareText {
     margin-bottom: -15px;
     font-family: 'Vollkorn', serif;
 }
-#moreReviews{
+
+#moreReviews {
     display: none;
 }
+
+.delete {
+    background-color: #FF865C;
+    border:  none;
+    color: #fff;
+}
+
+.delete:hover{
+    background-color:#424A5D;
+    color: #FFD777;
+}
+
 #map {
     position: relative;
     /*top: 0;*/
