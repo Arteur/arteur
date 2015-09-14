@@ -204,6 +204,7 @@ hr {
 #moreReviews{
     display: none;
 }
+
 .delete {
     background-color: #FF865C;
     border:  none;
@@ -212,4 +213,11 @@ hr {
 .delete:hover{
     background-color:#424A5D;
     color: #FFD777;
+
+#map {
+    position: relative;
+    /*top: 0;*/
+    /*left: 0;*/
+    width: 100% !important;
+    height: 310px !important;
 }
