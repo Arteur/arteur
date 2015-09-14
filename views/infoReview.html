@@ -83,9 +83,11 @@
                    <a href="/extrareview/{{id}}" class="btn btn-info text-center col-xs-12" role="button">Add review <span class="badge">{{this.extraReviews.length}}</span></a>
                    <p class="text-center">Created by {{author}} on {{date}} </p>
                    <button id="showMore" class="btn btn-default share btn-block">Show more reviews</button>
-                   {{#each extraReviews}}
-                       {{>extraReview}}
-                   {{/each}}
+                   <div id="moreReviews">
+                       {{#each extraReviews}}
+                           {{>extraReview}}
+                       {{/each}}
+                   </div>
                </div>
            </div>
         </div>

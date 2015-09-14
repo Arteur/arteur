@@ -1,4 +1,4 @@
-<div class="moreReviews">
+<div>
     <h5 class="text-center">Created by: {{this.author}}</h5>
 
     <div class="col-xs-6">
@@ -21,14 +21,6 @@
     <div class="row">
         <div class="col-xs-12">
             <div id="myCarousel2" class="carousel slide" data-ride="carousel">
-
-                <!--Indicators-->
-                <ol class="carousel-indicators">
-                    <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-                    <li data-slide-to="1" data-target="#myCarousel"></li>
-                    <li data-slide-to="2" data-target="#myCarousel"></li>
-                    <li data-slide-to="3" data-target="#myCarousel"></li>
-                </ol>
                 <!--wrapper for slides-->
                 <div class="carousel-inner">
                     {{{images this.pictures}}}
@@ -39,7 +31,6 @@
                 <a class="right carousel-control" data-slide="next" href="#myCarousel2"><span class="icon-next"></span></a>
 
             </div> <!--end of myCarousel-->
-            <!--{{{images this.pictures}}}-->
         </div>
     </div>
     <hr>
