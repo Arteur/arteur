@@ -21,6 +21,7 @@
     "url": "https://github.com/Arteur/arteur/issues"
   },
   "dependencies": {
+    "aws-sdk": "^2.2.0",
     "env2": "^2.0.2",
     "handlebars": "^4.0.2",
     "hapi": "^9.3.0",
