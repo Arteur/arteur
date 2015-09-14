@@ -25,5 +25,18 @@
         navigator.geolocation.getCurrentPosition(function(position) {
             $('#location').val(position.coords.latitude + ',' + position.coords.longitude);
         });
+
+        $('[data-toggle="tooltip"]').tooltip();
+
+        $(".carousel-inner").swiperight(function() {
+            $(this).parent().carousel('prev');
+        });
+        $(".carousel-inner").swipeleft(function() {
+            $(this).parent().carousel('next');
+        });
+
+        $('#showMore').click(function () {
+            $('#moreReviews').slideToggle();
+        });
     });
 })();

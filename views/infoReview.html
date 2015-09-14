@@ -6,11 +6,43 @@
            <div class="thumbnail">
                <h3 class="text-center">{{galleryName}}</h3>
                <h4 class="text-center">{{artistName}}</h4>
-               <h4 class="text-center">{{{tagsHelper tags}}}</h4>
+               <h4 class="text-center tags">{{{tagsHelper tags}}}</h4>
                <h4 class="text-center">{{artName}}</h4>
-               {{permanentHelper permanent endDate}}
-               {{freeHelper free}}
-               {{{images pictures}}}
+               <h4 class="text-center">{{permanentHelper permanent endDate}}</h4>
+               <h4 class="text-center">{{freeHelper free}}</h4>
+
+               <div id="myCarousel" class="carousel slide">
+
+                   <!--Indicators-->
+                   <ol class="carousel-indicators">
+                   <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+                   <li data-slide-to="1" data-target="#myCarousel"></li>
+                   <li data-slide-to="2" data-target="#myCarousel"></li>
+                   <li data-slide-to="3" data-target="#myCarousel"></li>
+                   </ol>
+                   <!--wrapper for slides-->
+                   <div class="carousel-inner">
+                       <div class="item active">
+                           <img src="/assets/pictures/pic1.jpg">
+                       </div>
+                       <div class="item">
+                           <img src="/assets/pictures/pic2.jpg">
+                       </div>
+                       <div class="item">
+                           <img src="/assets/pictures/pic3.jpg">
+                       </div>
+
+                   </div><!--end of carousel-inner-->
+
+                   <!--Controls-->
+                   <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+                   <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+               </div> <!--end of myCarousel-->
+
+
+
+               <!--{{{images pictures}}}-->
                <div class="caption">
                    <div class="row">
                        <div class="col-xs-6">
@@ -29,10 +61,35 @@
                                {{{rating icon2 'glyphicon glyphicon-info-sign'}}}
                            </h6>
                        </div>
+                       <div class="row">
+                           <div class="container">
+                               <div class="col-xs-12">
+                                   <p class="shareText text-center">Share</p>
+                                   <hr>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="row">
+                           <div class="container text-center">
+                               <div class="col-xs-4">
+                                   <p><i class="fa fa-facebook"></i>
+                                   </p>
+                               </div>
+                               <div class="col-xs-4">
+                                   <p><i class="fa fa-twitter"></i>
+                                   </p>
+                               </div>
+                               <div class="col-xs-4">
+                                   <p><i class="fa fa-instagram"></i>
+                                   </p>
+                               </div>
+                            </div>
+                       </div>
                    </div>
 
                    <a href="/extrareview/{{id}}" class="btn btn-info text-center col-xs-12" role="button">Add review <span class="badge">{{this.extraReviews.length}}</span></a>
-                   <small class="text-center">Created by {{author}} on {{date}} </small>
+                   <p class="text-center">Created by {{author}} on {{date}} </p>
+                   <button id="showMore" class="btn btn-default share btn-block">show more reviews</button>
                    {{#each extraReviews}}
                        {{>extraReview}}
                    {{/each}}
