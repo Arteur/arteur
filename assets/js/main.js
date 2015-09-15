@@ -45,6 +45,9 @@
                 galleryName: {
                     required: true
                 },
+                locationTxt: {
+                    required: true
+                },
                 stars: {
                     required: true
                 },
@@ -61,6 +64,9 @@
             messages: {
                 galleryName: {
                     required: 'Please enter gallery name'
+                },
+                locationTxt: {
+                    required: 'Please enter a location'
                 },
                 stars: {
                     required: 'Please enter stars rating'
