@@ -4,7 +4,7 @@
             <a data-toggle="tooltip" data-placement="bottom" title="My favourite" href="/myFavourite" class="btn btn-default pull-left" role="button"><span class="glyphicon glyphicon-heart"></span></a>
         </div>
         <div class="col-xs-4 text-center">
-            <a href="/worldTen" class="btn btn-default" role="button">World 10</a>
+            <a href="/" class="btn btn-default" role="button">Home</a>
         </div>
         <div class="col-xs-4">
             <button type="button" class="btn btn-default pull-right" data-toggle="collapse" data-target="#filter-panel">
@@ -17,22 +17,20 @@
             <div id="filter-panel" class="collapse filter-panel">
                 <div class="panel panel-default">
                     <div class="panel-body">
-                        <form class="form-inline" role="form" action='/search' method='post'>
+                        <form class="form-inline" role="form" action='/worldTen' method='post'>
                             <div class="form-group">
-                                <label class="filter-col" for="pref-perpage">Filter by:</label>
-                                <select id="pref-perpage" class="form-control selectpicker" name='filterStar'>
-                                    <option selected value="0">No filter</option>
-                                    <option value="1" data-content="{{rating 1 'glyphicon glyphicon-star'}}"></option>
-                                    <option value="2" data-content="{{rating 2 'glyphicon glyphicon-star'}}"></option>
-                                    <option value="3" data-content="{{rating 3 'glyphicon glyphicon-star'}}"></option>
-                                    <option value="4" data-content="{{rating 4 'glyphicon glyphicon-star'}}"></option>
-                                    <option value="5" data-content="{{rating 5 'glyphicon glyphicon-star'}}"></option>
+                                <label class="filter-col" for="pref-perpage">Top 10 by:</label>
+                                <select id="pref-perpage" class="form-control selectpicker" name='worldTenFilter'>                               
+                                    <option value="stars" data-content="<span aria-hidden='true' class='glyphicon glyphicon-star'></span>"></option>
+                                    <option value="hearts" data-content="<span aria-hidden='true' class='glyphicon glyphicon-heart'></span>"></option>
+                                    <option value="icon1" data-content="<span aria-hidden='true' class='glyphicon glyphicon-question-sign'></span>"></option>
+                                    <option value="icon2" data-content="<span aria-hidden='true' class='glyphicon glyphicon-info-sign'></span>"></option>
                                 </select>
                             </div> <!-- form group [rows] -->
 
                             <div class="form-group">
-                                <label class="filter-col" for="pref-search">Search:</label>
-                                <input type="text" class="form-control input-sm" id="pref-search" name='txtSearched'>
+                                <!-- <label class="filter-col" for="pref-search">Search:</label> -->
+                                <input disabled type="text" class="form-control input-sm" id="pref-search"  placeholder=" By distance">
                             </div><!-- form group [search] -->
 
                             <div class="form-group">
