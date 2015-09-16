@@ -2,8 +2,6 @@ html {
     position: relative;
     overflow-x: hidden;
     width:100%;
-
-
 }
 body {
     /* Margin bottom by footer height */
@@ -224,4 +222,7 @@ hr {
     /*left: 0;*/
     width: 100% !important;
     height: 310px !important;
+}
+a.social {
+    color: #424A5D;
 }
