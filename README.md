@@ -10,12 +10,13 @@
 Social platform for sharing reviews from art exhibition and uploading pictures at a real time.
 Length of the project: 5 days.
 
+
 ### Project requirements:
 - Set up database 
 - Add review interface 
 - World 10 reviews based on review stars 
 - Search functionality based on input fields from Create Review page
-- Mobile and desktop design
+- Mobile-first design
 - Share with social media feature
 - Dummy map page, with nearest attractions 
 
@@ -29,5 +30,5 @@ Length of the project: 5 days.
 - Lab (testing) 
 
 # Wireframes
-
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur.png)
 
