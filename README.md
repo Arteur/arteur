@@ -12,23 +12,31 @@ Length of the project: 5 days.
 
 
 ### Project requirements:
-- Set up database 
-- Add review interface 
-- World 10 reviews based on review stars 
+- Set up database
+- Add review interface
+- World 10 reviews based on review stars
 - Search functionality based on input fields from Create Review page
 - Mobile-first design
 - Share with social media feature
-- Dummy map page, with nearest attractions 
+- Dummy map page, with nearest attractions
 
-## We used following technologies: 
-- Nodejs
-- Hapijs
-- Redis database
-- Amazon S3
-- jQuery
-- Bootstrap
-- Lab (testing) 
+## We used following technologies:
+- [Nodejs](https://nodejs.org/en/)
+- [Hapijs](http://hapijs.com/)
+    - Main packages: shortid, env2, handlebars (see package.json)
+    - Testing: Lab, Code
+- [Redis database](http://redis.io/)
+- [Amazon S3](https://aws.amazon.com/)
+- [jQuery/JQuery UI](https://jqueryui.com/)
+- [Bootstrap](http://getbootstrap.com/)
 
 # Wireframes
-![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur.png)
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur1.jpg)
 
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur2.jpg)
+
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur3.jpg)
+
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur4.jpg)
+
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur.png)
