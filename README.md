@@ -10,6 +10,7 @@
 Social platform for sharing reviews from art exhibition and uploading pictures at a real time.
 Length of the project: 5 days.
 
+
 ### Project requirements:
 - Set up database 
 - Add review interface 
