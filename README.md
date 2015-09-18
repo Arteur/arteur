@@ -29,5 +29,5 @@ Length of the project: 5 days.
 - Lab (testing) 
 
 # Wireframes
-
+![wireframe](https://github.com/Arteur/arteur/blob/master/docs/wireframes/arteur.png)
 
