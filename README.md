@@ -15,7 +15,7 @@ Length of the project: 5 days.
 - Add review interface 
 - World 10 reviews based on review stars 
 - Search functionality based on input fields from Create Review page
-- Mobile and desktop design
+- Mobile-first design
 - Share with social media feature
 - Dummy map page, with nearest attractions 
 
