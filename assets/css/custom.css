@@ -5,7 +5,7 @@ html {
 }
 body {
     /* Margin bottom by footer height */
-    background-color: #fff; /* #fff */
+    background-color: #dddddd; /* #fff */
     margin-bottom: 50px;
     color: #9fa8a3; /*#9fa8a3*/
     font-family: 'Vollkorn', serif;
