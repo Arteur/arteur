@@ -8,7 +8,7 @@ body {
     background-color: #fff; /* #fff */
     margin-bottom: 50px;
     color: #9fa8a3; /*#9fa8a3*/
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat', serif;
     overflow-x: hidden;
     width:100%;
 
@@ -29,11 +29,11 @@ body > .container {
     background-color: #9fa8a3;
 }
 nav .btn-default, footer .btn-default {
-    background-color: #c5d5cb; /*#c5d5cb*/
+    background-color: #9fa8a3; /*#c5d5cb*/
     border:  none;
-    color: #9fa8a3;
+    color: #c5d5cb;
     border-radius: 0;
-    font-family: 'Vollkorn', serif;
+    font-family: ' ', serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -105,12 +105,12 @@ h5.tags, h4.tags {
 }
 .thumbnail {
     background-color: #fff; /*#F2F2F2;*/
-    /*border: 1px solid rgba(66, 74, 93, 0.36);*/
+    border: 1px solid rgba(66, 74, 93, 0.36);
     border: none;
-    border-radius: 0;
-    box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
+    border-radius: 1;
+   /* box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
     -webkit-box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
-    -moz-box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);
+    -moz-box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.5);       */ 
 }
 img {
     border: 1px solid rgba(66, 74, 93, 0.36);
@@ -119,7 +119,7 @@ img {
     background-color: #c5d5cb;
     border: none;
     border-radius: 0;
-    color: #9fa8a3;
+    color: #fff /*#9fa8a3;*/
     margin-bottom: 5px;
 }
 .btn-info:hover {
@@ -141,7 +141,7 @@ img {
     border:  none;
     color: #fff;
     border-radius: 0;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat', serif;
     font-weight: 700;
 }
 .createReview:hover, .btn-primary:hover {
@@ -156,7 +156,7 @@ img {
     background-color: #c5d5cb;
     color: #9fa8a3;
     border: none;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat', serif;
     font-weight: 700;
     min-width: 8pc;
 }
@@ -164,14 +164,14 @@ img {
     color: #333;
     background-color: #E6E6E6;
     border-color: #ADADAD;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat', serif;
     font-weight: 700;
 }
 .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
     color: #333;
     background-color: #E6E6E6;
     border-color: #ADADAD;
-    font-family: "Vollkorn",serif;
+    font-family: "Montserrat",serif;
     font-weight: 700;
 }
 .carousel-indicators li {
@@ -198,7 +198,7 @@ hr {
 
 .shareText {
     margin-bottom: -15px;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Montserrat', serif;
 }
 
 #moreReviews {
@@ -226,5 +226,3 @@ hr {
 a.social {
     color: #9fa8a3;
 }
-
- 
