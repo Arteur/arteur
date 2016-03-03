@@ -31,7 +31,7 @@ body > .container {
 nav .btn-default, footer .btn-default {
     background-color: #9fa8a3; /*#c5d5cb*/
     border:  none;
-    color: #c5d5cb;
+    color: #F9FAF9;
     border-radius: 0;
     font-family: ' ', serif;
     font-weight: 700;
@@ -101,7 +101,7 @@ h3 {
     color: #9fa8a3;
 }
 h5.tags, h4.tags {
-    color: #c5d5cb; /*#b3c2bf;*/
+    color: #f9faf9; /*#b3c2bf;*/
 }
 .thumbnail {
     background-color: #fff; /*#F2F2F2;*/
@@ -128,7 +128,7 @@ img {
 
 }
 .btn-info .badge {
-    color: #c5d5cb;
+    color: #f9faf9;
     background-color: #9fa8a3;
 }
 .glyphicon {
@@ -146,11 +146,11 @@ img {
 }
 .createReview:hover, .btn-primary:hover {
     background-color:#9fa8a3;
-    color: #c5d5cb;
+    color: #f9faf9;
 }
 .share:hover, .share:active {
     background-color: #9fa8a3;
-    color: #c5d5cb;
+    color: #f9faf9;
 }
 .btn-primary {
     background-color: #c5d5cb;
