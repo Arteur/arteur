@@ -8,7 +8,7 @@ body {
     background-color: #fff; /* #fff */
     margin-bottom: 50px;
     color: #9fa8a3; /*#9fa8a3*/
-    font-family: 'Montserrat', serif;
+    font-family: 'Tahoma', serif;
     overflow-x: hidden;
     width:100%;
 
@@ -141,7 +141,7 @@ img {
     border:  none;
     color: #fff;
     border-radius: 0;
-    font-family: 'Montserrat', serif;
+    font-family: 'Tahoma', serif;
     font-weight: 700;
 }
 .createReview:hover, .btn-primary:hover {
@@ -156,7 +156,7 @@ img {
     background-color: #c5d5cb;
     color: #9fa8a3;
     border: none;
-    font-family: 'Montserrat', serif;
+    font-family: 'Tahoma', serif;
     font-weight: 700;
     min-width: 8pc;
 }
@@ -164,14 +164,14 @@ img {
     color: #333;
     background-color: #E6E6E6;
     border-color: #ADADAD;
-    font-family: 'Montserrat', serif;
+    font-family: 'Tahoma', serif;
     font-weight: 700;
 }
 .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
     color: #333;
     background-color: #E6E6E6;
     border-color: #ADADAD;
-    font-family: "Montserrat",serif;
+    font-family: "Tahoma",serif;
     font-weight: 700;
 }
 .carousel-indicators li {
@@ -198,7 +198,7 @@ hr {
 
 .shareText {
     margin-bottom: -15px;
-    font-family: 'Montserrat', serif;
+    font-family: 'Tahoma', serif;
 }
 
 #moreReviews {
