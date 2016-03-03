@@ -33,7 +33,7 @@ nav .btn-default, footer .btn-default {
     border:  none;
     color: #F9FAF9;
     border-radius: 0;
-    font-family: 'Impact', serif;
+    font-family: 'Monsterrat', serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -116,14 +116,14 @@ img {
     border: 1px solid rgba(66, 74, 93, 0.36);
 }
 .btn-info {
-    background-color: #c5d5cb;
+    background-color: #9fa8a3;
     border: none;
     border-radius: 0;
     color: #fff /*#9fa8a3;*/
     margin-bottom: 5px;
 }
 .btn-info:hover {
-    background-color: #c0dfd9;  /*#c0dfd9 #c0dfd9*/
+    background-color: #b1bfb6;  /*#c0dfd9 #c0dfd9*/
     color: #9fa8a3;
 
 }
