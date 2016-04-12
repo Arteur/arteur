@@ -3,7 +3,7 @@ html {
     overflow-x: hidden;
     width:100%;
     font-family: sans-serif;
-	-webkit-text-size-adjust: 120%;
+	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
 body {
@@ -99,7 +99,8 @@ nav .btn-default:hover, footer .btn-default:hover {
 
 /***********Home View*********/
 h3 {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
+    font-family: 'Karla', sans-serif;
 }
 .thumbnail h5 {
     color: #66CCCC;
