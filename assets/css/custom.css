@@ -108,6 +108,7 @@ h3 {
 }
 h5.tags, h4.tags {
     color: #66CCCC; /*#b3c2bf;*/
+    font-family: 'Karla', sans-serif;
 }
 .thumbnail {
     background-color: #f2f2f2; /*#F2F2F2;*/
