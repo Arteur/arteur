@@ -135,7 +135,7 @@ img {
     margin-bottom: 5px;
 }
 .btn-info:hover {
-    background-color: #b1bfb6;  /*#c0dfd9 #c0dfd9*/
+    background-color: #66CCCC; /*#b1bfb6;  #c0dfd9 #c0dfd9*/
     color: #66CCCC;
 
 }
