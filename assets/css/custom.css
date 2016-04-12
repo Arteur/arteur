@@ -128,16 +128,15 @@ img {
     border: 1px solid rgba(66, 74, 93, 0.36);
 }
 .btn-info {
-    background-color: #66CCCC;
+    background-color: #b1bfb6;
     border: none;
     border-radius: 0;
     color: #fff /*#9fa8a3;*/
     margin-bottom: 5px;
 }
 .btn-info:hover {
-    background-color: #b1bfb6;  /*#c0dfd9 #c0dfd9*/
+    background-color: #66cccc;  /*#c0dfd9 #c0dfd9*/
     color: #fff;
-    font color
 
 }
 .btn-info .badge {
