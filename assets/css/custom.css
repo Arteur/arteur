@@ -2,6 +2,9 @@ html {
     position: relative;
     overflow-x: hidden;
     width:100%;
+    font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
 body {
     /* Margin bottom by footer height */
