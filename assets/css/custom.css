@@ -164,7 +164,7 @@ img {
     border: none; 
     font-family: 'Karla', sans-serif;
     /*font-family: 'Montserrat', serif;*/
-    font-weight: 700;
+    font-weight: 900;
     min-width: 8pc;
 }
 .btn-default.active, .btn-default:active, .open > .dropdown-toggle.btn-default {
