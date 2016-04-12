@@ -7,14 +7,14 @@ body {
     /* Margin bottom by footer height */
     background-color: #fff; /* #fff */
     margin-bottom: 50px;
-    color: #9fa8a3; /*#9fa8a3*/
+    color: #66CCCC	; /*#9fa8a3*/
     font-family: 'Montserrat', serif;
     overflow-x: hidden;
     width:100%;
 
 }
 a, a:hover {
-    color: #9fa8a3;
+    color: #66CCCC;
     text-decoration: none;
 }
 body > .container {
@@ -26,10 +26,10 @@ body > .container {
 
 /***********Navbar Home View*********/
 .navbar-default {
-    background-color: #9fa8a3;
+    background-color: #66CCCC;
 }
 nav .btn-default, footer .btn-default {
-    background-color: #9fa8a3; /*#c5d5cb*/
+    background-color: #66CCCC; /*#c5d5cb*/
     border:  none;
     color: #F9FAF9;
     border-radius: 0;
@@ -40,7 +40,7 @@ nav .btn-default, footer .btn-default {
 nav .btn-default:hover, footer .btn-default:hover {
     /*background-color: #51B090;*/
     /*background-color: #68DFF0;*/
-    background-color: #9fa8a3; /*#b3c2bf*/
+    background-color: #66CCCC; /*#b3c2bf*/
     color: #fff;
 }
 /*.world, .create {*/
@@ -88,7 +88,7 @@ nav .btn-default:hover, footer .btn-default:hover {
     width: 100%;
     /* Set the fixed height of the footer here */
     height: 50px;
-    background-color: #9fa8a3;
+    background-color: #66CCCC;
 }
 /***********End Footer View*********/
 
@@ -98,7 +98,7 @@ h3 {
     text-decoration: underline;
 }
 .thumbnail h5 {
-    color: #9fa8a3;
+    color: #66CCCC;
 }
 h5.tags, h4.tags {
     color: #f9faf9; /*#b3c2bf;*/
@@ -116,7 +116,7 @@ img {
     border: 1px solid rgba(66, 74, 93, 0.36);
 }
 .btn-info {
-    background-color: #9fa8a3;
+    background-color: #66CCCC;
     border: none;
     border-radius: 0;
     color: #fff /*#9fa8a3;*/
@@ -124,12 +124,12 @@ img {
 }
 .btn-info:hover {
     background-color: #b1bfb6;  /*#c0dfd9 #c0dfd9*/
-    color: #9fa8a3;
+    color: #66CCCC;
 
 }
 .btn-info .badge {
     color: #f9faf9;
-    background-color: #9fa8a3;
+    background-color: #66CCCC;
 }
 .glyphicon {
     letter-spacing: 1px;
@@ -145,16 +145,16 @@ img {
     font-weight: 700;
 }
 .createReview:hover, .btn-primary:hover {
-    background-color:#9fa8a3;
+    background-color:#66CCCC;
     color: #f9faf9;
 }
 .share:hover, .share:active {
-    background-color: #9fa8a3;
+    background-color: #66CCCC;
     color: #f9faf9;
 }
 .btn-primary {
     background-color: #c5d5cb;
-    color: #9fa8a3;
+    color: #66CCCC;
     border: none;
     font-family: 'Montserrat', serif;
     font-weight: 700;
@@ -212,7 +212,7 @@ hr {
 }
 
 .delete:hover{
-    background-color:#9fa8a3;
+    background-color:#66CCCC;
     color: #c5d5cb;
 }
 
@@ -224,5 +224,5 @@ hr {
     height: 310px !important;
 }
 a.social {
-    color: #9fa8a3;
+    color: #66CCCC;
 }
