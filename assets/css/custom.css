@@ -7,7 +7,7 @@ body {
     /* Margin bottom by footer height */
     background-color: #fff; /* #fff */
     margin-bottom: 50px;
-    color: #66CCCC; /*#9fa8a3*/
+    color: #66CCCC	; /*#9fa8a3*/
     font-family: 'Montserrat', serif;
     overflow-x: hidden;
     width:100%;
@@ -33,7 +33,8 @@ nav .btn-default, footer .btn-default {
     border:  none;
     color: #F9FAF9;
     border-radius: 0;
-    font-family: 'Monsterrat', serif;
+    font-family: 'Karla', sans-serif;
+    /*font-family: 'Monsterrat', serif;*/
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -141,7 +142,8 @@ img {
     border:  none;
     color: #fff;
     border-radius: 0;
-    font-family: 'Tahoma', serif;
+    font-family: 'Karla', sans-serif;
+    /*font-family: 'Tahoma', serif;*/
     font-weight: 700;
 }
 .createReview:hover, .btn-primary:hover {
@@ -155,8 +157,9 @@ img {
 .btn-primary {
     background-color: #c5d5cb;
     color: #66CCCC;
-    border: none;
-    font-family: 'Montserrat', serif;
+    border: none; 
+    font-family: 'Karla', sans-serif;
+    /*font-family: 'Montserrat', serif;*/
     font-weight: 700;
     min-width: 8pc;
 }
@@ -171,7 +174,8 @@ img {
     color: #333;
     background-color: #E6E6E6;
     border-color: #ADADAD;
-    font-family: "Montserrat",serif;
+    font-family: 'Karla', sans-serif;
+    /*font-family: "Montserrat",serif;*/
     font-weight: 700;
 }
 .carousel-indicators li {
