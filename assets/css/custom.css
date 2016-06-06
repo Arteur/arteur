@@ -104,10 +104,10 @@ h3 {
     font-family: 'Karla', sans-serif;
 }
 .thumbnail h5 {
-    color: #66CCCC;
+    color: #c92228;
 }
 h5.tags, h4.tags {
-    color: #66CCCC; /*#b3c2bf;*/
+    color: #c92228; /*#b3c2bf;*/
     font-family: 'Karla', sans-serif;
 }
 .thumbnail {
@@ -149,7 +149,7 @@ img {
 
 /************** create review page ********/
 .createReview, .share {
-    background-color: #b3c2bf; /*#F F865C;*/
+    background-color: #757272; /*#F F865C;*/
     border:  none;
     color: #fff;
     border-radius: 0;
